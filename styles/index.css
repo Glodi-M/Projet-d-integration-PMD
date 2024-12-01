@@ -1,0 +1,166 @@
+body {
+    font-family: inter;
+}
+
+.banner_content_post {
+    letter-spacing: 3PX;
+}
+
+.post_body {
+    letter-spacing: 3PX;
+    color: #592EA9;
+}
+
+.post_description {
+    color: #6D6E76;
+    font-size: 16px;
+}
+
+.banner_content_auteur {
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: rgb(2, 19, 14);
+}
+
+.business {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 16px 111.54px 4px 32px;
+}
+
+.affaires {
+    color: #6D6E76;
+    margin-top: 4px;
+    margin-bottom: 60px;
+}
+
+.banner_content_title_banner {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 23px;
+    margin-bottom: 17px;
+}
+
+.auteur_camile {
+    color: blueviolet;
+}
+
+.title_banner {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 23px;
+    margin-bottom: 17px;
+}
+
+.banner_content {
+    background-color: #EFFFFF;
+    padding: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px slategrey;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.cardimage {
+    max-width: 489.24px;
+    max-height: 318px;
+    width: 100%;
+}
+
+.pagination {
+    font-family: Sen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-pre {
+    margin-right: 15px;
+    color: #6D6E76;
+    font-size: 24px;
+}
+
+.pagination-sui {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.body {
+    margin-left: 15px;
+    font-family: inter;
+}
+
+.article-keypoint {
+    list-style: decimal;
+}
+
+.Allsposts_title {
+    font-size: 48px;
+    color: #232536;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-top: 57px;
+    margin-left: 80px;
+    margin-bottom: 63px;
+}
+
+.categories_card_son {
+    padding: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: auto;
+    
+}
+
+.categories_card_son img {
+    width: fit-content;
+}
+
+.categories_card_son:hover {
+    background-color: #36F1E6;
+}
+
+.categories_Card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   flex-wrap: wrap;
+
+
+
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/* Responsif PC   */
+
+@media screen and (min-width:651px) {
+    .main_article {
+        width: 100%;
+    }
+    .banner_content {
+        flex-direction: row;
+        gap: 114px;
+    }
+    .card {
+        flex-wrap: nowrap;
+    }
+
+
+}
